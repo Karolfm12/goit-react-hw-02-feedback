@@ -1,12 +1,11 @@
-import { App } from 'components/App';
-import Stats from 'components/Stats';
+import App from 'components/App';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Stats />
     <App />
+    {/* <ShowStatistics /> */}
   </React.StrictMode>
 );
